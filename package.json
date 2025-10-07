@@ -1,0 +1,19 @@
+{
+  "name": "assignment_3",
+  "version": "1.0.0",
+  "description": "LendMIT SmartMatch augmented concept implementation for 6.1040 Assignment 3",
+  "main": "dist/basic.test.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/basic.test.js && node dist/rich.test.js",
+    "test": "npm run start"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
